@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather+Sans:wght@400;600;800&family=Open+Sans:wght@300;400&family=Poppins&family=Tiro+Devanagari+Hindi&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-section {
+    display: flex;
+}
+
+#side-content {
+    flex-basis: 18.5%;
+    height: 100vh;
+    background-color: #000;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+}
+
+#main-content {
+    flex-basis: 81.5%;
+    background-color: rgb(20, 20, 20);
+}
+
+header {
+    height: 70px;
+    background-color: rgb(16, 16, 16);
+    position: sticky;
+    top: 0px;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul li {
+    list-style-type: none;
+    color: rgb(190, 190, 190);
+    padding: 22px;
+    padding-top: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2.1px;
+}
+
+.left-border {
+    border-right: solid 1px #fff;
+    height: 4px;
+    margin-top: 15px;
+    margin-left: -40px;
+}
+
+.login {
+    border: 1px solid #fff;
+    padding: 13px;
+    border-radius: 25px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    padding-left: 34px;
+    padding-right: 34px;
+    letter-spacing: 1px;
+}
+
+.arrow {
+    margin-right: 330px;
+}
+
+i {
+    padding-left: 30px;
+}
+
+#side-content strong {
+    font-size: 1.65em;
+    color: #fff;
+    font-family: 'Merriweather', sans-serif;
+    position: absolute;
+    top: 5%;
+}
+
+.spotify-icon {
+    height: 43px;
+    width: 43px;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
+.images {
+    height: 28px;
+    width: 28px;
+    margin: 10px;
+    margin-left: 25px;
+    margin-top: 27px;
+    margin-bottom: -15px;
+}
+
+#side-content b {
+    color: rgb(190, 190, 190);
+    position: relative;
+    top: 10px;
+    left: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+}
+
+#home {
+    color: #fff;
+}
+
+#side-content a {
+    position: relative;
+    top: 190px;
+    left: 25px;
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.77em;
+}
+
+.cookie {
+    position: relative;
+    top: 7px;
+}
+
+.img1 {
+    margin-top: 30px;
+}
+
+
+/* main music section starts hereeeeeeeeee */
+
+.title h2 {
+    color: #fff;
+    margin-left: 35px;
+    margin-top: 35px;
+    font-size: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title p {
+    float: right;
+    color: rgb(190, 190, 190);
+    margin-right: 40px;
+    font-size: 1.14em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.row {
+    display: flex;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 60px;
+}
+
+.item {
+    flex-basis: 24%;
+    background: rgba(27, 27, 27, 0.8);
+    height: 370px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.item img {
+    height: 220px;
+    width: 220px;
+    margin: 20px;
+}
+
+.item h3 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 25px;
+}
+
+.item p {
+    color: rgb(190, 190, 190);
+    font-family: 'Poppins', sans-serif;
+    margin-left: 25px;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.item:hover {
+    background-color: rgba(45, 45, 45, 1);
+}
+
+.circle {
+    display: none;
+    height: 55px;
+    width: 55px;
+    background: rgba(50, 205, 50, 0.9);
+    border-radius: 50%;
+    position: absolute;
+    top: 55%;
+    left: 31%;
+}
+
+.circle1 {
+    display: none;
+    height: 55px;
+    width: 55px;
+    background: rgba(50, 205, 50, 0.9);
+    border-radius: 50%;
+    position: absolute;
+    top: 55%;
+    left: 52%;
+}
+
+.circle2 {
+    display: none;
+    height: 55px;
+    width: 55px;
+    background: rgba(50, 205, 50, 0.9);
+    border-radius: 50%;
+    position: absolute;
+    top: 55%;
+    left: 72%;
+}
+
+.circle3 {
+    display: none;
+    height: 55px;
+    width: 55px;
+    background: rgba(50, 205, 50, 0.9);
+    border-radius: 50%;
+    position: absolute;
+    top: 55%;
+    left: 91.4%;
+}
+
+.circle1 i,
+.circle i,
+.circle2 i,
+.circle3 i {
+    position: relative;
+    top: 19px;
+    right: 9px;
+}
+
+.item img:hover+div {
+    display: inline;
+}
